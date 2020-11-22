@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7A174992569CA660087C5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A174982569CA660087C5E5 /* AppDelegate.swift */; };
+		D7A1749B2569CA660087C5E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A1749A2569CA660087C5E5 /* ContentView.swift */; };
+		D7A1749D2569CA670087C5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A1749C2569CA670087C5E5 /* Assets.xcassets */; };
+		D7A174A02569CA670087C5E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A1749F2569CA670087C5E5 /* Preview Assets.xcassets */; };
+		D7A174A32569CA670087C5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A174A12569CA670087C5E5 /* Main.storyboard */; };
+		D7A174B32569CAB10087C5E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A174B22569CAB10087C5E5 /* Cocoa.framework */; };
+		D7A174B62569CAB10087C5E5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A174B52569CAB10087C5E5 /* SafariWebExtensionHandler.swift */; };
+		D7A174B92569CAB10087C5E5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = D7A174B82569CAB10087C5E5 /* _locales */; };
+		D7A174BB2569CAB10087C5E5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D7A174BA2569CAB10087C5E5 /* images */; };
+		D7A174BD2569CAB10087C5E5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D7A174BC2569CAB10087C5E5 /* manifest.json */; };
+		D7A174BF2569CAB10087C5E5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D7A174BE2569CAB10087C5E5 /* background.js */; };
+		D7A174C12569CAB10087C5E5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D7A174C02569CAB10087C5E5 /* content.js */; };
+		D7A174C32569CAB10087C5E5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D7A174C22569CAB10087C5E5 /* popup.html */; };
+		D7A174C52569CAB10087C5E5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D7A174C42569CAB10087C5E5 /* popup.css */; };
+		D7A174C72569CAB10087C5E5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D7A174C62569CAB10087C5E5 /* popup.js */; };
+		D7A174CC2569CAB10087C5E5 /* NetflixSkipExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7A174B02569CAB10087C5E5 /* NetflixSkipExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A174CA2569CAB10087C5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A1748D2569CA660087C5E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A174AF2569CAB10087C5E5;
+			remoteInfo = NetflixSkipExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7A174D02569CAB10087C5E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7A174CC2569CAB10087C5E5 /* NetflixSkipExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7A174952569CA660087C5E5 /* NetflixSkip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixSkip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A174982569CA660087C5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7A1749A2569CA660087C5E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7A1749C2569CA670087C5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A1749F2569CA670087C5E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7A174A22569CA670087C5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7A174A42569CA670087C5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A174A52569CA670087C5E5 /* NetflixSkip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetflixSkip.entitlements; sourceTree = "<group>"; };
+		D7A174B02569CAB10087C5E5 /* NetflixSkipExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NetflixSkipExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A174B22569CAB10087C5E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D7A174B52569CAB10087C5E5 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D7A174B82569CAB10087C5E5 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		D7A174BA2569CAB10087C5E5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		D7A174BC2569CAB10087C5E5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		D7A174BE2569CAB10087C5E5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		D7A174C02569CAB10087C5E5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		D7A174C22569CAB10087C5E5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		D7A174C42569CAB10087C5E5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		D7A174C62569CAB10087C5E5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		D7A174C82569CAB10087C5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A174C92569CAB10087C5E5 /* NetflixSkipExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetflixSkipExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A174922569CA660087C5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A174AD2569CAB10087C5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A174B32569CAB10087C5E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A1748C2569CA660087C5E5 = {
+			isa = PBXGroup;
+			children = (
+				D7A174972569CA660087C5E5 /* NetflixSkip */,
+				D7A174B42569CAB10087C5E5 /* NetflixSkipExtension */,
+				D7A174B12569CAB10087C5E5 /* Frameworks */,
+				D7A174962569CA660087C5E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A174962569CA660087C5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A174952569CA660087C5E5 /* NetflixSkip.app */,
+				D7A174B02569CAB10087C5E5 /* NetflixSkipExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A174972569CA660087C5E5 /* NetflixSkip */ = {
+			isa = PBXGroup;
+			children = (
+				D7A174982569CA660087C5E5 /* AppDelegate.swift */,
+				D7A1749A2569CA660087C5E5 /* ContentView.swift */,
+				D7A1749C2569CA670087C5E5 /* Assets.xcassets */,
+				D7A174A12569CA670087C5E5 /* Main.storyboard */,
+				D7A174A42569CA670087C5E5 /* Info.plist */,
+				D7A174A52569CA670087C5E5 /* NetflixSkip.entitlements */,
+				D7A1749E2569CA670087C5E5 /* Preview Content */,
+			);
+			path = NetflixSkip;
+			sourceTree = "<group>";
+		};
+		D7A1749E2569CA670087C5E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1749F2569CA670087C5E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7A174B12569CAB10087C5E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7A174B22569CAB10087C5E5 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A174B42569CAB10087C5E5 /* NetflixSkipExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D7A174B52569CAB10087C5E5 /* SafariWebExtensionHandler.swift */,
+				D7A174C82569CAB10087C5E5 /* Info.plist */,
+				D7A174C92569CAB10087C5E5 /* NetflixSkipExtension.entitlements */,
+				D7A174B72569CAB10087C5E5 /* Resources */,
+			);
+			path = NetflixSkipExtension;
+			sourceTree = "<group>";
+		};
+		D7A174B72569CAB10087C5E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7A174B82569CAB10087C5E5 /* _locales */,
+				D7A174BA2569CAB10087C5E5 /* images */,
+				D7A174BC2569CAB10087C5E5 /* manifest.json */,
+				D7A174BE2569CAB10087C5E5 /* background.js */,
+				D7A174C02569CAB10087C5E5 /* content.js */,
+				D7A174C22569CAB10087C5E5 /* popup.html */,
+				D7A174C42569CAB10087C5E5 /* popup.css */,
+				D7A174C62569CAB10087C5E5 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A174942569CA660087C5E5 /* NetflixSkip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A174A82569CA670087C5E5 /* Build configuration list for PBXNativeTarget "NetflixSkip" */;
+			buildPhases = (
+				D7A174912569CA660087C5E5 /* Sources */,
+				D7A174922569CA660087C5E5 /* Frameworks */,
+				D7A174932569CA660087C5E5 /* Resources */,
+				D7A174D02569CAB10087C5E5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A174CB2569CAB10087C5E5 /* PBXTargetDependency */,
+			);
+			name = NetflixSkip;
+			productName = NetflixSkip;
+			productReference = D7A174952569CA660087C5E5 /* NetflixSkip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A174AF2569CAB10087C5E5 /* NetflixSkipExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A174CD2569CAB10087C5E5 /* Build configuration list for PBXNativeTarget "NetflixSkipExtension" */;
+			buildPhases = (
+				D7A174AC2569CAB10087C5E5 /* Sources */,
+				D7A174AD2569CAB10087C5E5 /* Frameworks */,
+				D7A174AE2569CAB10087C5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetflixSkipExtension;
+			productName = NetflixSkipExtension;
+			productReference = D7A174B02569CAB10087C5E5 /* NetflixSkipExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A1748D2569CA660087C5E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D7A174942569CA660087C5E5 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					D7A174AF2569CAB10087C5E5 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = D7A174902569CA660087C5E5 /* Build configuration list for PBXProject "NetflixSkip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A1748C2569CA660087C5E5;
+			productRefGroup = D7A174962569CA660087C5E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A174942569CA660087C5E5 /* NetflixSkip */,
+				D7A174AF2569CAB10087C5E5 /* NetflixSkipExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A174932569CA660087C5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A174A32569CA670087C5E5 /* Main.storyboard in Resources */,
+				D7A174A02569CA670087C5E5 /* Preview Assets.xcassets in Resources */,
+				D7A1749D2569CA670087C5E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A174AE2569CAB10087C5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A174BF2569CAB10087C5E5 /* background.js in Resources */,
+				D7A174C52569CAB10087C5E5 /* popup.css in Resources */,
+				D7A174C32569CAB10087C5E5 /* popup.html in Resources */,
+				D7A174BB2569CAB10087C5E5 /* images in Resources */,
+				D7A174BD2569CAB10087C5E5 /* manifest.json in Resources */,
+				D7A174B92569CAB10087C5E5 /* _locales in Resources */,
+				D7A174C12569CAB10087C5E5 /* content.js in Resources */,
+				D7A174C72569CAB10087C5E5 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A174912569CA660087C5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1749B2569CA660087C5E5 /* ContentView.swift in Sources */,
+				D7A174992569CA660087C5E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A174AC2569CAB10087C5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A174B62569CAB10087C5E5 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A174CB2569CAB10087C5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A174AF2569CAB10087C5E5 /* NetflixSkipExtension */;
+			targetProxy = D7A174CA2569CAB10087C5E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A174A12569CA670087C5E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A174A22569CA670087C5E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A174A62569CA670087C5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7A174A72569CA670087C5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D7A174A92569CA670087C5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NetflixSkip/NetflixSkip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NetflixSkip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NetflixSkip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = thomaspink.NetflixSkip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7A174AA2569CA670087C5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NetflixSkip/NetflixSkip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NetflixSkip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NetflixSkip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = thomaspink.NetflixSkip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7A174CE2569CAB10087C5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetflixSkipExtension/NetflixSkipExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetflixSkipExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = thomaspink.NetflixSkip.NetflixSkipExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7A174CF2569CAB10087C5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetflixSkipExtension/NetflixSkipExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetflixSkipExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = thomaspink.NetflixSkip.NetflixSkipExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A174902569CA660087C5E5 /* Build configuration list for PBXProject "NetflixSkip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A174A62569CA670087C5E5 /* Debug */,
+				D7A174A72569CA670087C5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A174A82569CA670087C5E5 /* Build configuration list for PBXNativeTarget "NetflixSkip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A174A92569CA670087C5E5 /* Debug */,
+				D7A174AA2569CA670087C5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A174CD2569CAB10087C5E5 /* Build configuration list for PBXNativeTarget "NetflixSkipExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A174CE2569CAB10087C5E5 /* Debug */,
+				D7A174CF2569CAB10087C5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A1748D2569CA660087C5E5 /* Project object */;
+}
