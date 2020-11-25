@@ -65,7 +65,7 @@
 		D7A174BA2569CAB10087C5E5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		D7A174BC2569CAB10087C5E5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		D7A174BE2569CAB10087C5E5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		D7A174C02569CAB10087C5E5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		D7A174C02569CAB10087C5E5 /* content.js */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; tabWidth = 4; };
 		D7A174C22569CAB10087C5E5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		D7A174C42569CAB10087C5E5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		D7A174C62569CAB10087C5E5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
